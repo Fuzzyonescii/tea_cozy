@@ -6,6 +6,10 @@
   opacity: 0.9;
   }
 
+  h2 {
+    font-size: 1.5em;
+  }
+
 /*      Header      */
 header {
   display: flex;
@@ -37,9 +41,10 @@ header nav a {
   display: flex;
   position: absolute;
   flex-direction: column;
+  align-content: center;    /*I thought this would vertically align all sub flex containers ... It didnt */
   width: 100%;
   height: 1800px;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 /*      Mission       */
@@ -67,10 +72,22 @@ header nav a {
   }
 
 .statement h2 {
-  font-size: 1.5em;
   margin-bottom: 20px;
 }
 
 .statement h4 {
   margin-top: 0px;
+}
+
+/*        Tea of the Month TOM          */
+.tom {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 760px;
+  width: 1000px;
+}
+
+.tom h2, h4{
+  align-self: center;
 }
