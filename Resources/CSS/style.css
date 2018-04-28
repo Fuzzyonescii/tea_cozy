@@ -110,17 +110,65 @@ header nav a {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   width: 1000px;
   text-align: center;
 }
 
 .types img {
+  margin-top: 20px;
   width: 300px;
   height: 200px;
-  padding-top: 20px;
+}
+
+.types h4 {
+  margin-top: 10px;
 }
 
 .four.five {
-  
+
+}
+
+/*      Locations       */
+#locations {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 130px;
+  width: 1200px;
+  height: 500px;
+  background-image: url('../Media/locationsbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.downtown {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.eastbay {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.oak {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.locations {
+  display: flex;
+  align-self: center;
+
 }
