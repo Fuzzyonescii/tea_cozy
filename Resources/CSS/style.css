@@ -49,16 +49,7 @@ header nav a {
 
 /*      Mission       */
 #mission {
-/*  display: flex;
-  flex-direction: column;
-  position: relative;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  width: 1200px;
-  height: 700px;
-   */
-  margin: 0 auto;
+    margin: 0 auto;
     height: 700px;
     width: 1200px;
     top: 60px;
@@ -66,13 +57,12 @@ header nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-  z-index: 1;
-  background-image: url('../Media/missionbackground.jpg');
-  background-repeat: no-repeat;
+    background-image: url('../Media/missionbackground.jpg');
+    background-repeat: no-repeat;
 }
 
  .statement {
-   text-align: center;
+  text-align: center;
   height: 100px;
   width: 100%;
   z-index: 2;
@@ -81,6 +71,7 @@ header nav a {
   }
 
 .statement h2 {
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -109,25 +100,16 @@ header nav a {
 .types {
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   width: 1000px;
   text-align: center;
 }
 
 .types img {
-  margin-top: 30px;
+  margin: 10px;
   width: 300px;
   height: 200px;
-}
-
-.types h4 {
-  margin-top: 10px;
-}
-
-.four.five {
-  display: flex;
 }
 
 /*      Locations       */
@@ -138,14 +120,25 @@ header nav a {
   align-items: center;
   text-align: center;
   position: relative;
+  padding-top: 70px;
   top: 200px;
   width: 1200px;
   height: 500px;
   background-image: url('../Media/locationsbackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#locations h2 {
   background-color: transparent;
 }
+
+.locations {
+  display: flex;
+  align-self: center;
+  background-color: transparent;
+}
+
 .downtown {
   width: 300px;
   opacity: 1;
@@ -168,10 +161,7 @@ header nav a {
   margin-top: 15px;
 }
 
-.locations {
-  display: flex;
-  align-self: center;
-}
+
 
 /*      Footer      */
 footer {
@@ -185,10 +175,17 @@ footer {
   align-items: center;
   }
 
+footer h2 {
+  margin-bottom: 10px;
+}
+
 footer h5 {
   margin-bottom: 0px;
 }
 /*    end     */
 .end {
-
+  position: relative;
+  top: 200px;
+  margin-left: 20px;
+  text-align: left;
 }
