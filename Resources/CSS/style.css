@@ -137,11 +137,13 @@ manage it easier.    */
 
 #locations h2 {
   background-color: transparent;
+  margin-top: 50px;
 }
 
 .locations {
   display: flex;
   margin: 20px;
+  margin-top: 0px;
   opacity: 1;
   align-self: center;
   text-align: center;
